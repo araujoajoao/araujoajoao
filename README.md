@@ -2,7 +2,7 @@
 
 - Currently a DevOps Student
 - Learning Azure DevOps, Terraform and Kubernetes
-- Looking for help with getting my first job as DevOps Jr.
+- Looking for getting my first job as DevOps Jr.
 
 <div align="center">
   <a href="https://github.com/araujoajoao">
