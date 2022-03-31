@@ -9,9 +9,6 @@
   <img height="190em" src="https://github-readme-stats.vercel.app/api?username=araujoajoao&show_icons=true&theme=light&include_all_commits=true&count_private=true"/>
   <img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=araujoajoao&layout=compact&langs_count=7&theme=light"/>
 </div>
-
-##  
-  
   <div style="display: inline_block"><br>
 <img align="center" alt="Joao-Python" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
 <img align="center" alt="Joao-Git" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg">
