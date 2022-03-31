@@ -1,8 +1,8 @@
-### Hello World! 👋
+### Hello World! 👨‍💻
 
-- 🔭 I’m currently a DevOps Student
-- 🌱 I’m currently learning Azure DevOps, Terraform and Kubernetes
-- 🤔 I’m looking for help with getting my first job as DevOps Jr.
+- I’m currently a DevOps Student
+- I’m currently learning Azure DevOps, Terraform and Kubernetes
+- I’m looking for help with getting my first job as DevOps Jr.
 
 <div align="center">
   <a href="https://github.com/araujoajoao">
