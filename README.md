@@ -1,7 +1,6 @@
 ### Hello World! 👨‍💻
 
-- Currently a DevOps Student
-- Looking for getting my first job as DevOps
+- DevOps Intern
 
 <div align="center">
   <a href="https://github.com/araujoajoao">
