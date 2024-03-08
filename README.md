@@ -1,6 +1,6 @@
 ### Hello World! 👨‍💻
 
-- DevOps
+- DevOps/SysAdmin
 
 <div align="left">
   <a href="https://github.com/araujoajoao">
