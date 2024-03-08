@@ -1,6 +1,6 @@
 ### Hello World! 👨‍💻
 
-- DevOps Assistant
+- DevOps
 
 <div align="left">
   <a href="https://github.com/araujoajoao">
