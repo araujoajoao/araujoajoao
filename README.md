@@ -1,6 +1,6 @@
 ### Hello World! 👨‍💻
 
-- DevOps/SysAdmin
+- DevOps/SysAdmin/SRE
 
 <div align="left">
   <a href="https://github.com/araujoajoao">
