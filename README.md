@@ -8,6 +8,7 @@
   <img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=araujoajoao&layout=compact&langs_count=7&theme=dark"/>
 </div>
   <div style="display: inline_block"><br>
+<img align="center" alt="Joao-Hadoop" height="50" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hadoop/hadoop-original.svg" />
 <img align="center" alt="Joao-Python" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 <img align="center" alt="Joao-Git" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
 <img align="center" alt="Joao-Bash" height="45" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-plain.svg" />
