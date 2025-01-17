@@ -1,6 +1,6 @@
 ### Hello World! 👨‍💻
 
-- DevOps/SysAdmin/SRE
+- DevOps | SysAdmin | SRE | Cloud Computing
 
 </div>
   <div style="display: inline_block"><br>
