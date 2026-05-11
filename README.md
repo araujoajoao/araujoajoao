@@ -1,26 +1,22 @@
-### Hello World! 👨‍💻
+<h2 align="center">Hello World! 👨‍💻</h2>
 
-- DevOps | SysAdmin | SRE | Cloud Computing
+<p align="center">
+  <b>DevOps &nbsp;|&nbsp; SysAdmin &nbsp;|&nbsp; SRE &nbsp;|&nbsp; Cloud Computing</b>
+</p>
 
-</div>
-  <div style="display: inline_block"><br>
-<img align="center" alt="Joao-Hadoop" height="50" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hadoop/hadoop-original.svg" />
-<img align="center" alt="Joao-Python" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-<img align="center" alt="Joao-Git" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
-<img align="center" alt="Joao-Bash" height="45" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-plain.svg" />
-<img align="center" alt="Joao-Docker" height="60" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-<img align="center" alt="Joao-Terraform" height="50" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />
-<img align="center" alt="Joao-Kubernetes" height="40" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />
-<img align="center" alt="Joao-GCP" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
-<img align="center" alt="Joao-Bitbucket" height="45" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg" />
-                    
+<p align="center"><img height="48" src="https://cdn.simpleicons.org/datadog/632CA6" title="Datadog"/><img src="https://skillicons.dev/icons?i=python,bash,git,docker,kubernetes,terraform&perline=7" /></p>
 
-##
-    
-  <div>   
-  <a href="https://www.linkedin.com/in/araujojoao84/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://drive.google.com/file/d/1580fjSB1eex_KOoWatsLULAJ779tsKf1/view" target="_blank"><img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" target="_blank"></a>
-   
-  </div>
-  
-  
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&cache_seconds=0"/>
+</p>
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/araujojoao84/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+<p align="center">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Built%20with-Claude%20Code-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/>
+</p>
