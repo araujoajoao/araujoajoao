@@ -2,6 +2,11 @@
 <p align="center">
   <b>DevOps &nbsp;|&nbsp; SysAdmin &nbsp;|&nbsp; SRE &nbsp;|&nbsp; Cloud Computing</b>
 </p>
+
+<p align="center">
+  <img src="terminal.svg"/>
+</p>
+
 <p align="center">
   <img src="https://go-skill-icons.vercel.app/api/icons?i=datadog,docker,kubernetes,terraform,python,bash,git&perline=7"/>
 </p>
@@ -12,4 +17,7 @@
   <a href="https://www.linkedin.com/in/araujojoao84/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20with-Claude%20Code-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/>
 </p>
