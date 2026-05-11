@@ -44,7 +44,7 @@
 
   <text x="32"  y="231" font-family="monospace" font-size="13" fill="#7aa2f7">observe</text>
   <text x="90"  y="231" font-family="monospace" font-size="13" fill="#565f89">→</text>
-  <text x="105" y="231" font-family="monospace" font-size="13" fill="#c0caf5">Datadog  (metrics · logs · traces · APM)</text>
+  <text x="105" y="231" font-family="monospace" font-size="13" fill="#c0caf5">Datadog (metrics · logs · traces · APM)</text>
 
   <text x="32"  y="249" font-family="monospace" font-size="13" fill="#7aa2f7">cicd</text>
   <text x="90"  y="249" font-family="monospace" font-size="13" fill="#565f89">→</text>
@@ -61,5 +61,6 @@
   </rect>
 
   <line x1="0" y1="358" x2="680" y2="358" stroke="#24283b" stroke-width="1"/>
-  <text x="340" y="381" text-anchor="middle
+  <text x="340" y="381" text-anchor="middle" font-family="monospace" font-size="11" fill="#565f89">built with </text>
+  <text x="400" y="381" font-family="monospace" font-size="11" fill="#CC785C">Claude Code</text>
 </svg>
