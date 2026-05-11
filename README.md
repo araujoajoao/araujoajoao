@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="iterm.svg"/>
+  <img src="https://raw.githubusercontent.com/araujoajoao/araujoajoao/main/iterm.svg"/>
 </p>
 
 <p align="center">
