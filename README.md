@@ -13,6 +13,3 @@
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Built%20with-Claude%20Code-CC785C?style=for-the-badge&logo=anthropic&logoColor=white"/>
-</p>
