@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="terminal.svg"/>
+  <img src="iterm.svg"/>
 </p>
 
 <p align="center">
