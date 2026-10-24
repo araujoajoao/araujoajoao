@@ -5,9 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=datadog,docker,kubernetes,terraform,python,bash,git&perline=7"/>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=git,linux,bash,python,docker,githubactions,aws,gcp,terraform,datadog,kubernetes&perline=11"/>
 </p>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/araujojoao84/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+</p>
