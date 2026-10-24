@@ -26,22 +26,25 @@
   <text x="28" y="88" font-family="monospace" font-size="13" font-weight="bold" fill="#bb9af7">João Araújo</text>
   <text x="134" y="88" font-family="monospace" font-size="13" font-weight="bold" fill="#7dcfff">DevOps · SRE · Cloud</text>
 
-  <!-- Command 2: ls skills/ -->
+  <!-- Command 2: ls skills/ (Ordered by increasing difficulty in a clean 6x2 tabular grid) -->
   <text x="28" y="118" font-family="monospace" font-size="13" font-weight="bold" fill="#7aa2f7">$</text>
   <text x="44" y="118" font-family="monospace" font-size="13" font-weight="bold" fill="#c0caf5">ls skills/</text>
 
-  <!-- Clean Directory Output -->
-  <text x="28" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">datadog/</text>
-  <text x="114" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">docker/</text>
-  <text x="192" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">kubernetes/</text>
-  <text x="302" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">terraform/</text>
-  <text x="404" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">python/</text>
-  <text x="482" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">bash/</text>
-  <text x="544" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">git/</text>
-  <text x="544" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">aws/</text>
-  <text x="544" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">gcp/</text>
+  <!-- Row 1: Foundations to Pipelines -->
+  <text x="28"  y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">git/</text>
+  <text x="112" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">linux/</text>
+  <text x="204" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">bash/</text>
+  <text x="316" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">python/</text>
+  <text x="416" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">docker/</text>
+  <text x="536" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">ci/cd/</text>
 
-  <text x="28" y="162" font-family="monospace" font-size="12" font-weight="bold" fill="#565f89">
+  <!-- Row 2: Cloud, IaC, Observability & Orchestration -->
+  <text x="28"  y="162" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">aws/</text>
+  <text x="112" y="162" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">gcp/</text>
+  <text x="204" y="162" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">terraform/</text>
+  <text x="316" y="162" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">datadog/</text>
+  <text x="416" y="162" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">kubernetes/</text>
+  <text x="536" y="162" font-family="monospace" font-size="12" font-weight="bold" fill="#565f89">
     <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/>loading...
   </text>
 
