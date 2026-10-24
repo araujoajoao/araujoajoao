@@ -36,7 +36,7 @@
   <text x="204" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">bash/</text>
   <text x="316" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">python/</text>
   <text x="416" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">docker/</text>
-  <text x="536" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">ci/cd/</text>
+  <text x="536" y="140" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">cicd/</text>
 
   <!-- Row 2: Cloud, IaC, Observability & Orchestration -->
   <text x="28"  y="162" font-family="monospace" font-size="13" font-weight="bold" fill="#9ece6a">aws/</text>
