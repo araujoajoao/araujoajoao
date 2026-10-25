@@ -1,7 +1,7 @@
 <h2 align="center">Hello World! 👨‍💻</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/araujoajoao/araujoajoao/main/iterm.svg"/>
+  <img src="./iterm.svg"/>
 </p>
 
 <p align="center">

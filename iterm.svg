@@ -49,30 +49,28 @@
   </text>
 
   <!-- Command 3: echo $MOTTO (Dynamic Rotating Mottos) -->
+  <style>
+    @keyframes motto0 { 0%, 17% { opacity: 1; } 20%, 97% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes motto1 { 0%, 17% { opacity: 0; } 20%, 37% { opacity: 1; } 40%, 100% { opacity: 0; } }
+    @keyframes motto2 { 0%, 37% { opacity: 0; } 40%, 57% { opacity: 1; } 60%, 100% { opacity: 0; } }
+    @keyframes motto3 { 0%, 57% { opacity: 0; } 60%, 77% { opacity: 1; } 80%, 100% { opacity: 0; } }
+    @keyframes motto4 { 0%, 77% { opacity: 0; } 80%, 97% { opacity: 1; } 100% { opacity: 0; } }
+    .m0 { animation: motto0 15s infinite; }
+    .m1 { animation: motto1 15s infinite; opacity: 0; }
+    .m2 { animation: motto2 15s infinite; opacity: 0; }
+    .m3 { animation: motto3 15s infinite; opacity: 0; }
+    .m4 { animation: motto4 15s infinite; opacity: 0; }
+  </style>
+
   <text x="28" y="192" font-family="monospace" font-size="13" font-weight="bold" fill="#7aa2f7">$</text>
   <text x="44" y="192" font-family="monospace" font-size="13" font-weight="bold" fill="#c0caf5">echo $MOTTO</text>
 
   <g font-family="monospace" font-size="13" font-weight="bold" fill="#e0af68">
-    <text x="28" y="214">
-      "You can't improve what you don't measure."
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;1" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
-    </text>
-    <text x="28" y="214">
-      "Hope is not a strategy."
-      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
-    </text>
-    <text x="28" y="214">
-      "Automate everything you do more than twice."
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
-    </text>
-    <text x="28" y="214">
-      "Everything fails, all the time."
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
-    </text>
-    <text x="28" y="214">
-      "Infrastructure as Code or it didn't happen."
-      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
-    </text>
+    <text x="28" y="214" class="m0">"You can't improve what you don't measure."</text>
+    <text x="28" y="214" class="m1">"Hope is not a strategy."</text>
+    <text x="28" y="214" class="m2">"Automate everything you do more than twice."</text>
+    <text x="28" y="214" class="m3">"Everything fails, all the time."</text>
+    <text x="28" y="214" class="m4">"Infrastructure as Code or it didn't happen."</text>
   </g>
 
   <!-- Active Prompt & Blinking Cursor -->
