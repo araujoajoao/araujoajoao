@@ -48,11 +48,32 @@
     <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/>loading...
   </text>
 
-  <!-- Command 3: echo $MOTTO -->
+  <!-- Command 3: echo $MOTTO (Dynamic Rotating Mottos) -->
   <text x="28" y="192" font-family="monospace" font-size="13" font-weight="bold" fill="#7aa2f7">$</text>
   <text x="44" y="192" font-family="monospace" font-size="13" font-weight="bold" fill="#c0caf5">echo $MOTTO</text>
 
-  <text x="28" y="214" font-family="monospace" font-size="13" font-weight="bold" fill="#e0af68">"You can't improve what you don't measure."</text>
+  <g font-family="monospace" font-size="13" font-weight="bold" fill="#e0af68">
+    <text x="28" y="214">
+      "You can't improve what you don't measure."
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;1" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+    <text x="28" y="214">
+      "Hope is not a strategy."
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+    <text x="28" y="214">
+      "Automate everything you do more than twice."
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+    <text x="28" y="214">
+      "Everything fails, all the time."
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+    <text x="28" y="214">
+      "Infrastructure as Code or it didn't happen."
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.185;0.2;0.385;0.4;0.585;0.6;0.785;0.8;0.985;1" dur="20s" repeatCount="indefinite"/>
+    </text>
+  </g>
 
   <!-- Active Prompt & Blinking Cursor -->
   <text x="28" y="238" font-family="monospace" font-size="13" font-weight="bold" fill="#7aa2f7">$</text>
