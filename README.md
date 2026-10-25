@@ -13,6 +13,6 @@
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://araujoajoao.github.io/araujojoao.resume/" target="_blank">
-    <img src="https://img.shields.io/badge/-CV | Resume-%232563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+    <img src="https://img.shields.io/badge/CV | Resume-%232563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
   </a>
 </p>
