@@ -12,4 +12,5 @@
   <a href="https://www.linkedin.com/in/araujojoao84/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+  <a href="https://araujoajoao.github.io/araujojoao.resume/"><b>🌐 View Live Portfolio</b></a>
 </p>
