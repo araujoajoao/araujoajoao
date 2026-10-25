@@ -48,44 +48,315 @@
     <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/>loading...
   </text>
 
-  <!-- Command 3: echo $MOTTO (Dynamic Rotating Mottos - 10s per motto) -->
+  <!-- Command 3: echo $MOTTO (100 Rotating Mottos - 8s per motto) -->
   <style>
-    @keyframes motto0 { 0%, 9.5% { opacity: 1; } 10%, 99.5% { opacity: 0; } 100% { opacity: 1; } }
-    @keyframes motto1 { 0%, 9.5% { opacity: 0; } 10%, 19.5% { opacity: 1; } 20%, 100% { opacity: 0; } }
-    @keyframes motto2 { 0%, 19.5% { opacity: 0; } 20%, 29.5% { opacity: 1; } 30%, 100% { opacity: 0; } }
-    @keyframes motto3 { 0%, 29.5% { opacity: 0; } 30%, 39.5% { opacity: 1; } 40%, 100% { opacity: 0; } }
-    @keyframes motto4 { 0%, 39.5% { opacity: 0; } 40%, 49.5% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @keyframes motto5 { 0%, 49.5% { opacity: 0; } 50%, 59.5% { opacity: 1; } 60%, 100% { opacity: 0; } }
-    @keyframes motto6 { 0%, 59.5% { opacity: 0; } 60%, 69.5% { opacity: 1; } 70%, 100% { opacity: 0; } }
-    @keyframes motto7 { 0%, 69.5% { opacity: 0; } 70%, 79.5% { opacity: 1; } 80%, 100% { opacity: 0; } }
-    @keyframes motto8 { 0%, 79.5% { opacity: 0; } 80%, 89.5% { opacity: 1; } 90%, 100% { opacity: 0; } }
-    @keyframes motto9 { 0%, 89.5% { opacity: 0; } 90%, 99.5% { opacity: 1; } 100% { opacity: 0; } }
-    .m0 { animation: motto0 100s infinite; }
-    .m1 { animation: motto1 100s infinite; opacity: 0; }
-    .m2 { animation: motto2 100s infinite; opacity: 0; }
-    .m3 { animation: motto3 100s infinite; opacity: 0; }
-    .m4 { animation: motto4 100s infinite; opacity: 0; }
-    .m5 { animation: motto5 100s infinite; opacity: 0; }
-    .m6 { animation: motto6 100s infinite; opacity: 0; }
-    .m7 { animation: motto7 100s infinite; opacity: 0; }
-    .m8 { animation: motto8 100s infinite; opacity: 0; }
-    .m9 { animation: motto9 100s infinite; opacity: 0; }
+    .motto { font-family: monospace; font-size: 13px; font-weight: bold; fill: #e0af68; opacity: 0; }
+    @keyframes qk0 { 0%, 0.95% { opacity: 1; } 1.00%, 99.95% { opacity: 0; } 100% { opacity: 1; } }
+    .q0 { animation: qk0 800s infinite; opacity: 1; }
+    @keyframes qk1 { 0%, 0.95% { opacity: 0; } 1.00%, 1.95% { opacity: 1; } 2.00%, 100% { opacity: 0; } }
+    .q1 { animation: qk1 800s infinite; }
+    @keyframes qk2 { 0%, 1.95% { opacity: 0; } 2.00%, 2.95% { opacity: 1; } 3.00%, 100% { opacity: 0; } }
+    .q2 { animation: qk2 800s infinite; }
+    @keyframes qk3 { 0%, 2.95% { opacity: 0; } 3.00%, 3.95% { opacity: 1; } 4.00%, 100% { opacity: 0; } }
+    .q3 { animation: qk3 800s infinite; }
+    @keyframes qk4 { 0%, 3.95% { opacity: 0; } 4.00%, 4.95% { opacity: 1; } 5.00%, 100% { opacity: 0; } }
+    .q4 { animation: qk4 800s infinite; }
+    @keyframes qk5 { 0%, 4.95% { opacity: 0; } 5.00%, 5.95% { opacity: 1; } 6.00%, 100% { opacity: 0; } }
+    .q5 { animation: qk5 800s infinite; }
+    @keyframes qk6 { 0%, 5.95% { opacity: 0; } 6.00%, 6.95% { opacity: 1; } 7.00%, 100% { opacity: 0; } }
+    .q6 { animation: qk6 800s infinite; }
+    @keyframes qk7 { 0%, 6.95% { opacity: 0; } 7.00%, 7.95% { opacity: 1; } 8.00%, 100% { opacity: 0; } }
+    .q7 { animation: qk7 800s infinite; }
+    @keyframes qk8 { 0%, 7.95% { opacity: 0; } 8.00%, 8.95% { opacity: 1; } 9.00%, 100% { opacity: 0; } }
+    .q8 { animation: qk8 800s infinite; }
+    @keyframes qk9 { 0%, 8.95% { opacity: 0; } 9.00%, 9.95% { opacity: 1; } 10.00%, 100% { opacity: 0; } }
+    .q9 { animation: qk9 800s infinite; }
+    @keyframes qk10 { 0%, 9.95% { opacity: 0; } 10.00%, 10.95% { opacity: 1; } 11.00%, 100% { opacity: 0; } }
+    .q10 { animation: qk10 800s infinite; }
+    @keyframes qk11 { 0%, 10.95% { opacity: 0; } 11.00%, 11.95% { opacity: 1; } 12.00%, 100% { opacity: 0; } }
+    .q11 { animation: qk11 800s infinite; }
+    @keyframes qk12 { 0%, 11.95% { opacity: 0; } 12.00%, 12.95% { opacity: 1; } 13.00%, 100% { opacity: 0; } }
+    .q12 { animation: qk12 800s infinite; }
+    @keyframes qk13 { 0%, 12.95% { opacity: 0; } 13.00%, 13.95% { opacity: 1; } 14.00%, 100% { opacity: 0; } }
+    .q13 { animation: qk13 800s infinite; }
+    @keyframes qk14 { 0%, 13.95% { opacity: 0; } 14.00%, 14.95% { opacity: 1; } 15.00%, 100% { opacity: 0; } }
+    .q14 { animation: qk14 800s infinite; }
+    @keyframes qk15 { 0%, 14.95% { opacity: 0; } 15.00%, 15.95% { opacity: 1; } 16.00%, 100% { opacity: 0; } }
+    .q15 { animation: qk15 800s infinite; }
+    @keyframes qk16 { 0%, 15.95% { opacity: 0; } 16.00%, 16.95% { opacity: 1; } 17.00%, 100% { opacity: 0; } }
+    .q16 { animation: qk16 800s infinite; }
+    @keyframes qk17 { 0%, 16.95% { opacity: 0; } 17.00%, 17.95% { opacity: 1; } 18.00%, 100% { opacity: 0; } }
+    .q17 { animation: qk17 800s infinite; }
+    @keyframes qk18 { 0%, 17.95% { opacity: 0; } 18.00%, 18.95% { opacity: 1; } 19.00%, 100% { opacity: 0; } }
+    .q18 { animation: qk18 800s infinite; }
+    @keyframes qk19 { 0%, 18.95% { opacity: 0; } 19.00%, 19.95% { opacity: 1; } 20.00%, 100% { opacity: 0; } }
+    .q19 { animation: qk19 800s infinite; }
+    @keyframes qk20 { 0%, 19.95% { opacity: 0; } 20.00%, 20.95% { opacity: 1; } 21.00%, 100% { opacity: 0; } }
+    .q20 { animation: qk20 800s infinite; }
+    @keyframes qk21 { 0%, 20.95% { opacity: 0; } 21.00%, 21.95% { opacity: 1; } 22.00%, 100% { opacity: 0; } }
+    .q21 { animation: qk21 800s infinite; }
+    @keyframes qk22 { 0%, 21.95% { opacity: 0; } 22.00%, 22.95% { opacity: 1; } 23.00%, 100% { opacity: 0; } }
+    .q22 { animation: qk22 800s infinite; }
+    @keyframes qk23 { 0%, 22.95% { opacity: 0; } 23.00%, 23.95% { opacity: 1; } 24.00%, 100% { opacity: 0; } }
+    .q23 { animation: qk23 800s infinite; }
+    @keyframes qk24 { 0%, 23.95% { opacity: 0; } 24.00%, 24.95% { opacity: 1; } 25.00%, 100% { opacity: 0; } }
+    .q24 { animation: qk24 800s infinite; }
+    @keyframes qk25 { 0%, 24.95% { opacity: 0; } 25.00%, 25.95% { opacity: 1; } 26.00%, 100% { opacity: 0; } }
+    .q25 { animation: qk25 800s infinite; }
+    @keyframes qk26 { 0%, 25.95% { opacity: 0; } 26.00%, 26.95% { opacity: 1; } 27.00%, 100% { opacity: 0; } }
+    .q26 { animation: qk26 800s infinite; }
+    @keyframes qk27 { 0%, 26.95% { opacity: 0; } 27.00%, 27.95% { opacity: 1; } 28.00%, 100% { opacity: 0; } }
+    .q27 { animation: qk27 800s infinite; }
+    @keyframes qk28 { 0%, 27.95% { opacity: 0; } 28.00%, 28.95% { opacity: 1; } 29.00%, 100% { opacity: 0; } }
+    .q28 { animation: qk28 800s infinite; }
+    @keyframes qk29 { 0%, 28.95% { opacity: 0; } 29.00%, 29.95% { opacity: 1; } 30.00%, 100% { opacity: 0; } }
+    .q29 { animation: qk29 800s infinite; }
+    @keyframes qk30 { 0%, 29.95% { opacity: 0; } 30.00%, 30.95% { opacity: 1; } 31.00%, 100% { opacity: 0; } }
+    .q30 { animation: qk30 800s infinite; }
+    @keyframes qk31 { 0%, 30.95% { opacity: 0; } 31.00%, 31.95% { opacity: 1; } 32.00%, 100% { opacity: 0; } }
+    .q31 { animation: qk31 800s infinite; }
+    @keyframes qk32 { 0%, 31.95% { opacity: 0; } 32.00%, 32.95% { opacity: 1; } 33.00%, 100% { opacity: 0; } }
+    .q32 { animation: qk32 800s infinite; }
+    @keyframes qk33 { 0%, 32.95% { opacity: 0; } 33.00%, 33.95% { opacity: 1; } 34.00%, 100% { opacity: 0; } }
+    .q33 { animation: qk33 800s infinite; }
+    @keyframes qk34 { 0%, 33.95% { opacity: 0; } 34.00%, 34.95% { opacity: 1; } 35.00%, 100% { opacity: 0; } }
+    .q34 { animation: qk34 800s infinite; }
+    @keyframes qk35 { 0%, 34.95% { opacity: 0; } 35.00%, 35.95% { opacity: 1; } 36.00%, 100% { opacity: 0; } }
+    .q35 { animation: qk35 800s infinite; }
+    @keyframes qk36 { 0%, 35.95% { opacity: 0; } 36.00%, 36.95% { opacity: 1; } 37.00%, 100% { opacity: 0; } }
+    .q36 { animation: qk36 800s infinite; }
+    @keyframes qk37 { 0%, 36.95% { opacity: 0; } 37.00%, 37.95% { opacity: 1; } 38.00%, 100% { opacity: 0; } }
+    .q37 { animation: qk37 800s infinite; }
+    @keyframes qk38 { 0%, 37.95% { opacity: 0; } 38.00%, 38.95% { opacity: 1; } 39.00%, 100% { opacity: 0; } }
+    .q38 { animation: qk38 800s infinite; }
+    @keyframes qk39 { 0%, 38.95% { opacity: 0; } 39.00%, 39.95% { opacity: 1; } 40.00%, 100% { opacity: 0; } }
+    .q39 { animation: qk39 800s infinite; }
+    @keyframes qk40 { 0%, 39.95% { opacity: 0; } 40.00%, 40.95% { opacity: 1; } 41.00%, 100% { opacity: 0; } }
+    .q40 { animation: qk40 800s infinite; }
+    @keyframes qk41 { 0%, 40.95% { opacity: 0; } 41.00%, 41.95% { opacity: 1; } 42.00%, 100% { opacity: 0; } }
+    .q41 { animation: qk41 800s infinite; }
+    @keyframes qk42 { 0%, 41.95% { opacity: 0; } 42.00%, 42.95% { opacity: 1; } 43.00%, 100% { opacity: 0; } }
+    .q42 { animation: qk42 800s infinite; }
+    @keyframes qk43 { 0%, 42.95% { opacity: 0; } 43.00%, 43.95% { opacity: 1; } 44.00%, 100% { opacity: 0; } }
+    .q43 { animation: qk43 800s infinite; }
+    @keyframes qk44 { 0%, 43.95% { opacity: 0; } 44.00%, 44.95% { opacity: 1; } 45.00%, 100% { opacity: 0; } }
+    .q44 { animation: qk44 800s infinite; }
+    @keyframes qk45 { 0%, 44.95% { opacity: 0; } 45.00%, 45.95% { opacity: 1; } 46.00%, 100% { opacity: 0; } }
+    .q45 { animation: qk45 800s infinite; }
+    @keyframes qk46 { 0%, 45.95% { opacity: 0; } 46.00%, 46.95% { opacity: 1; } 47.00%, 100% { opacity: 0; } }
+    .q46 { animation: qk46 800s infinite; }
+    @keyframes qk47 { 0%, 46.95% { opacity: 0; } 47.00%, 47.95% { opacity: 1; } 48.00%, 100% { opacity: 0; } }
+    .q47 { animation: qk47 800s infinite; }
+    @keyframes qk48 { 0%, 47.95% { opacity: 0; } 48.00%, 48.95% { opacity: 1; } 49.00%, 100% { opacity: 0; } }
+    .q48 { animation: qk48 800s infinite; }
+    @keyframes qk49 { 0%, 48.95% { opacity: 0; } 49.00%, 49.95% { opacity: 1; } 50.00%, 100% { opacity: 0; } }
+    .q49 { animation: qk49 800s infinite; }
+    @keyframes qk50 { 0%, 49.95% { opacity: 0; } 50.00%, 50.95% { opacity: 1; } 51.00%, 100% { opacity: 0; } }
+    .q50 { animation: qk50 800s infinite; }
+    @keyframes qk51 { 0%, 50.95% { opacity: 0; } 51.00%, 51.95% { opacity: 1; } 52.00%, 100% { opacity: 0; } }
+    .q51 { animation: qk51 800s infinite; }
+    @keyframes qk52 { 0%, 51.95% { opacity: 0; } 52.00%, 52.95% { opacity: 1; } 53.00%, 100% { opacity: 0; } }
+    .q52 { animation: qk52 800s infinite; }
+    @keyframes qk53 { 0%, 52.95% { opacity: 0; } 53.00%, 53.95% { opacity: 1; } 54.00%, 100% { opacity: 0; } }
+    .q53 { animation: qk53 800s infinite; }
+    @keyframes qk54 { 0%, 53.95% { opacity: 0; } 54.00%, 54.95% { opacity: 1; } 55.00%, 100% { opacity: 0; } }
+    .q54 { animation: qk54 800s infinite; }
+    @keyframes qk55 { 0%, 54.95% { opacity: 0; } 55.00%, 55.95% { opacity: 1; } 56.00%, 100% { opacity: 0; } }
+    .q55 { animation: qk55 800s infinite; }
+    @keyframes qk56 { 0%, 55.95% { opacity: 0; } 56.00%, 56.95% { opacity: 1; } 57.00%, 100% { opacity: 0; } }
+    .q56 { animation: qk56 800s infinite; }
+    @keyframes qk57 { 0%, 56.95% { opacity: 0; } 57.00%, 57.95% { opacity: 1; } 58.00%, 100% { opacity: 0; } }
+    .q57 { animation: qk57 800s infinite; }
+    @keyframes qk58 { 0%, 57.95% { opacity: 0; } 58.00%, 58.95% { opacity: 1; } 59.00%, 100% { opacity: 0; } }
+    .q58 { animation: qk58 800s infinite; }
+    @keyframes qk59 { 0%, 58.95% { opacity: 0; } 59.00%, 59.95% { opacity: 1; } 60.00%, 100% { opacity: 0; } }
+    .q59 { animation: qk59 800s infinite; }
+    @keyframes qk60 { 0%, 59.95% { opacity: 0; } 60.00%, 60.95% { opacity: 1; } 61.00%, 100% { opacity: 0; } }
+    .q60 { animation: qk60 800s infinite; }
+    @keyframes qk61 { 0%, 60.95% { opacity: 0; } 61.00%, 61.95% { opacity: 1; } 62.00%, 100% { opacity: 0; } }
+    .q61 { animation: qk61 800s infinite; }
+    @keyframes qk62 { 0%, 61.95% { opacity: 0; } 62.00%, 62.95% { opacity: 1; } 63.00%, 100% { opacity: 0; } }
+    .q62 { animation: qk62 800s infinite; }
+    @keyframes qk63 { 0%, 62.95% { opacity: 0; } 63.00%, 63.95% { opacity: 1; } 64.00%, 100% { opacity: 0; } }
+    .q63 { animation: qk63 800s infinite; }
+    @keyframes qk64 { 0%, 63.95% { opacity: 0; } 64.00%, 64.95% { opacity: 1; } 65.00%, 100% { opacity: 0; } }
+    .q64 { animation: qk64 800s infinite; }
+    @keyframes qk65 { 0%, 64.95% { opacity: 0; } 65.00%, 65.95% { opacity: 1; } 66.00%, 100% { opacity: 0; } }
+    .q65 { animation: qk65 800s infinite; }
+    @keyframes qk66 { 0%, 65.95% { opacity: 0; } 66.00%, 66.95% { opacity: 1; } 67.00%, 100% { opacity: 0; } }
+    .q66 { animation: qk66 800s infinite; }
+    @keyframes qk67 { 0%, 66.95% { opacity: 0; } 67.00%, 67.95% { opacity: 1; } 68.00%, 100% { opacity: 0; } }
+    .q67 { animation: qk67 800s infinite; }
+    @keyframes qk68 { 0%, 67.95% { opacity: 0; } 68.00%, 68.95% { opacity: 1; } 69.00%, 100% { opacity: 0; } }
+    .q68 { animation: qk68 800s infinite; }
+    @keyframes qk69 { 0%, 68.95% { opacity: 0; } 69.00%, 69.95% { opacity: 1; } 70.00%, 100% { opacity: 0; } }
+    .q69 { animation: qk69 800s infinite; }
+    @keyframes qk70 { 0%, 69.95% { opacity: 0; } 70.00%, 70.95% { opacity: 1; } 71.00%, 100% { opacity: 0; } }
+    .q70 { animation: qk70 800s infinite; }
+    @keyframes qk71 { 0%, 70.95% { opacity: 0; } 71.00%, 71.95% { opacity: 1; } 72.00%, 100% { opacity: 0; } }
+    .q71 { animation: qk71 800s infinite; }
+    @keyframes qk72 { 0%, 71.95% { opacity: 0; } 72.00%, 72.95% { opacity: 1; } 73.00%, 100% { opacity: 0; } }
+    .q72 { animation: qk72 800s infinite; }
+    @keyframes qk73 { 0%, 72.95% { opacity: 0; } 73.00%, 73.95% { opacity: 1; } 74.00%, 100% { opacity: 0; } }
+    .q73 { animation: qk73 800s infinite; }
+    @keyframes qk74 { 0%, 73.95% { opacity: 0; } 74.00%, 74.95% { opacity: 1; } 75.00%, 100% { opacity: 0; } }
+    .q74 { animation: qk74 800s infinite; }
+    @keyframes qk75 { 0%, 74.95% { opacity: 0; } 75.00%, 75.95% { opacity: 1; } 76.00%, 100% { opacity: 0; } }
+    .q75 { animation: qk75 800s infinite; }
+    @keyframes qk76 { 0%, 75.95% { opacity: 0; } 76.00%, 76.95% { opacity: 1; } 77.00%, 100% { opacity: 0; } }
+    .q76 { animation: qk76 800s infinite; }
+    @keyframes qk77 { 0%, 76.95% { opacity: 0; } 77.00%, 77.95% { opacity: 1; } 78.00%, 100% { opacity: 0; } }
+    .q77 { animation: qk77 800s infinite; }
+    @keyframes qk78 { 0%, 77.95% { opacity: 0; } 78.00%, 78.95% { opacity: 1; } 79.00%, 100% { opacity: 0; } }
+    .q78 { animation: qk78 800s infinite; }
+    @keyframes qk79 { 0%, 78.95% { opacity: 0; } 79.00%, 79.95% { opacity: 1; } 80.00%, 100% { opacity: 0; } }
+    .q79 { animation: qk79 800s infinite; }
+    @keyframes qk80 { 0%, 79.95% { opacity: 0; } 80.00%, 80.95% { opacity: 1; } 81.00%, 100% { opacity: 0; } }
+    .q80 { animation: qk80 800s infinite; }
+    @keyframes qk81 { 0%, 80.95% { opacity: 0; } 81.00%, 81.95% { opacity: 1; } 82.00%, 100% { opacity: 0; } }
+    .q81 { animation: qk81 800s infinite; }
+    @keyframes qk82 { 0%, 81.95% { opacity: 0; } 82.00%, 82.95% { opacity: 1; } 83.00%, 100% { opacity: 0; } }
+    .q82 { animation: qk82 800s infinite; }
+    @keyframes qk83 { 0%, 82.95% { opacity: 0; } 83.00%, 83.95% { opacity: 1; } 84.00%, 100% { opacity: 0; } }
+    .q83 { animation: qk83 800s infinite; }
+    @keyframes qk84 { 0%, 83.95% { opacity: 0; } 84.00%, 84.95% { opacity: 1; } 85.00%, 100% { opacity: 0; } }
+    .q84 { animation: qk84 800s infinite; }
+    @keyframes qk85 { 0%, 84.95% { opacity: 0; } 85.00%, 85.95% { opacity: 1; } 86.00%, 100% { opacity: 0; } }
+    .q85 { animation: qk85 800s infinite; }
+    @keyframes qk86 { 0%, 85.95% { opacity: 0; } 86.00%, 86.95% { opacity: 1; } 87.00%, 100% { opacity: 0; } }
+    .q86 { animation: qk86 800s infinite; }
+    @keyframes qk87 { 0%, 86.95% { opacity: 0; } 87.00%, 87.95% { opacity: 1; } 88.00%, 100% { opacity: 0; } }
+    .q87 { animation: qk87 800s infinite; }
+    @keyframes qk88 { 0%, 87.95% { opacity: 0; } 88.00%, 88.95% { opacity: 1; } 89.00%, 100% { opacity: 0; } }
+    .q88 { animation: qk88 800s infinite; }
+    @keyframes qk89 { 0%, 88.95% { opacity: 0; } 89.00%, 89.95% { opacity: 1; } 90.00%, 100% { opacity: 0; } }
+    .q89 { animation: qk89 800s infinite; }
+    @keyframes qk90 { 0%, 89.95% { opacity: 0; } 90.00%, 90.95% { opacity: 1; } 91.00%, 100% { opacity: 0; } }
+    .q90 { animation: qk90 800s infinite; }
+    @keyframes qk91 { 0%, 90.95% { opacity: 0; } 91.00%, 91.95% { opacity: 1; } 92.00%, 100% { opacity: 0; } }
+    .q91 { animation: qk91 800s infinite; }
+    @keyframes qk92 { 0%, 91.95% { opacity: 0; } 92.00%, 92.95% { opacity: 1; } 93.00%, 100% { opacity: 0; } }
+    .q92 { animation: qk92 800s infinite; }
+    @keyframes qk93 { 0%, 92.95% { opacity: 0; } 93.00%, 93.95% { opacity: 1; } 94.00%, 100% { opacity: 0; } }
+    .q93 { animation: qk93 800s infinite; }
+    @keyframes qk94 { 0%, 93.95% { opacity: 0; } 94.00%, 94.95% { opacity: 1; } 95.00%, 100% { opacity: 0; } }
+    .q94 { animation: qk94 800s infinite; }
+    @keyframes qk95 { 0%, 94.95% { opacity: 0; } 95.00%, 95.95% { opacity: 1; } 96.00%, 100% { opacity: 0; } }
+    .q95 { animation: qk95 800s infinite; }
+    @keyframes qk96 { 0%, 95.95% { opacity: 0; } 96.00%, 96.95% { opacity: 1; } 97.00%, 100% { opacity: 0; } }
+    .q96 { animation: qk96 800s infinite; }
+    @keyframes qk97 { 0%, 96.95% { opacity: 0; } 97.00%, 97.95% { opacity: 1; } 98.00%, 100% { opacity: 0; } }
+    .q97 { animation: qk97 800s infinite; }
+    @keyframes qk98 { 0%, 97.95% { opacity: 0; } 98.00%, 98.95% { opacity: 1; } 99.00%, 100% { opacity: 0; } }
+    .q98 { animation: qk98 800s infinite; }
+    @keyframes qk99 { 0%, 98.95% { opacity: 0; } 99.00%, 99.95% { opacity: 1; } 100.00%, 100% { opacity: 0; } }
+    .q99 { animation: qk99 800s infinite; }
   </style>
 
   <text x="28" y="192" font-family="monospace" font-size="13" font-weight="bold" fill="#7aa2f7">$</text>
   <text x="44" y="192" font-family="monospace" font-size="13" font-weight="bold" fill="#c0caf5">echo $MOTTO</text>
 
-  <g font-family="monospace" font-size="13" font-weight="bold" fill="#e0af68">
-    <text x="28" y="214" class="m0">"You can't improve what you don't measure."</text>
-    <text x="28" y="214" class="m1">"Hope is not a strategy."</text>
-    <text x="28" y="214" class="m2">"Automate everything you do more than twice."</text>
-    <text x="28" y="214" class="m3">"Everything fails, all the time."</text>
-    <text x="28" y="214" class="m4">"Infrastructure as Code or it didn't happen."</text>
-    <text x="28" y="214" class="m5">"Simplicity is prerequisite for reliability."</text>
-    <text x="28" y="214" class="m6">"If it hurts, do it more often."</text>
-    <text x="28" y="214" class="m7">"In God we trust; all others must bring data."</text>
-    <text x="28" y="214" class="m8">"Observability is about understanding why."</text>
-    <text x="28" y="214" class="m9">"Move fast with stable infrastructure."</text>
+  <g>
+    <text x="28" y="214" class="motto q0">"You can't improve what you don't measure."</text>
+    <text x="28" y="214" class="motto q1">"In God we trust; all others must bring data."</text>
+    <text x="28" y="214" class="motto q2">"Observability is about understanding why."</text>
+    <text x="28" y="214" class="motto q3">"Monitoring says when; observability says why."</text>
+    <text x="28" y="214" class="motto q4">"Metrics count, logs explain, traces connect."</text>
+    <text x="28" y="214" class="motto q5">"Without telemetry, you're flying blind at mach 2."</text>
+    <text x="28" y="214" class="motto q6">"Errors are data, not just failures."</text>
+    <text x="28" y="214" class="motto q7">"Keep calm and check the dashboards."</text>
+    <text x="28" y="214" class="motto q8">"Alert on symptoms, debug with causes."</text>
+    <text x="28" y="214" class="motto q9">"If a service breaks and no alert fires, was it monitored?"</text>
+    <text x="28" y="214" class="motto q10">"High cardinality is the cure for missing context."</text>
+    <text x="28" y="214" class="motto q11">"Logs without trace IDs are just digital clutter."</text>
+    <text x="28" y="214" class="motto q12">"MTTD is as critical as MTTR."</text>
+    <text x="28" y="214" class="motto q13">"Good SLOs protect innovation and sleep."</text>
+    <text x="28" y="214" class="motto q14">"Measure twice, deploy continuously."</text>
+    <text x="28" y="214" class="motto q15">"Hope is not a strategy."</text>
+    <text x="28" y="214" class="motto q16">"Everything fails, all the time."</text>
+    <text x="28" y="214" class="motto q17">"Failure is an inevitable consequence of complexity."</text>
+    <text x="28" y="214" class="motto q18">"Embrace failure as a learning opportunity."</text>
+    <text x="28" y="214" class="motto q19">"Simplicity is prerequisite for reliability."</text>
+    <text x="28" y="214" class="motto q20">"Reliability is the most important feature."</text>
+    <text x="28" y="214" class="motto q21">"An error budget spent is innovation earned."</text>
+    <text x="28" y="214" class="motto q22">"Blameless postmortems build resilient teams."</text>
+    <text x="28" y="214" class="motto q23">"Chaos engineering: break it before production does."</text>
+    <text x="28" y="214" class="motto q24">"Design for failure, architect for resilience."</text>
+    <text x="28" y="214" class="motto q25">"Resilience is the ability to recover from failure."</text>
+    <text x="28" y="214" class="motto q26">"Redundancy without testing is just wishful thinking."</text>
+    <text x="28" y="214" class="motto q27">"Degrade gracefully; don't crash catastrophically."</text>
+    <text x="28" y="214" class="motto q28">"Backups are only as good as the last restore test."</text>
+    <text x="28" y="214" class="motto q29">"Expect the unexpected; handle the inevitable."</text>
+    <text x="28" y="214" class="motto q30">"Automate everything you do more than twice."</text>
+    <text x="28" y="214" class="motto q31">"If it hurts, do it more often."</text>
+    <text x="28" y="214" class="motto q32">"Move fast with stable infrastructure."</text>
+    <text x="28" y="214" class="motto q33">"Culture eats technology for breakfast."</text>
+    <text x="28" y="214" class="motto q34">"DevOps is a culture of shared responsibility."</text>
+    <text x="28" y="214" class="motto q35">"Continuous improvement beats delayed perfection."</text>
+    <text x="28" y="214" class="motto q36">"Friction in release pipelines breeds fear."</text>
+    <text x="28" y="214" class="motto q37">"Feedback loops should be measured in minutes, not months."</text>
+    <text x="28" y="214" class="motto q38">"Small batches, fast feedback, continuous value."</text>
+    <text x="28" y="214" class="motto q39">"Shift left to find bugs while they're cheap."</text>
+    <text x="28" y="214" class="motto q40">"Deployment should be a non-event."</text>
+    <text x="28" y="214" class="motto q41">"Friday deploys are safe when automation is trustworthy."</text>
+    <text x="28" y="214" class="motto q42">"Ship value, not just code."</text>
+    <text x="28" y="214" class="motto q43">"Shared pain leads to shared solutions."</text>
+    <text x="28" y="214" class="motto q44">"Break silos, build pipelines."</text>
+    <text x="28" y="214" class="motto q45">"Infrastructure as Code or it didn't happen."</text>
+    <text x="28" y="214" class="motto q46">"Treat servers like cattle, not pets."</text>
+    <text x="28" y="214" class="motto q47">"Immutable infrastructure eliminates configuration drift."</text>
+    <text x="28" y="214" class="motto q48">"Git is the single source of truth."</text>
+    <text x="28" y="214" class="motto q49">"If it's not in version control, it doesn't exist."</text>
+    <text x="28" y="214" class="motto q50">"Terraform: declarative, reproducible, audit-ready."</text>
+    <text x="28" y="214" class="motto q51">"Containers package code; Kubernetes orchestrates reality."</text>
+    <text x="28" y="214" class="motto q52">"Cloud is about agility, not just someone else's computer."</text>
+    <text x="28" y="214" class="motto q53">"Stateless services scale without fear."</text>
+    <text x="28" y="214" class="motto q54">"Declarative configuration prevents human error."</text>
+    <text x="28" y="214" class="motto q55">"Ephemeral environments make testing fearless."</text>
+    <text x="28" y="214" class="motto q56">"Drift happens when you touch servers manually."</text>
+    <text x="28" y="214" class="motto q57">"Automated rollback is your best safety net."</text>
+    <text x="28" y="214" class="motto q58">"Multi-region is insurance; test the policy regularly."</text>
+    <text x="28" y="214" class="motto q59">"Infrastructure should be disposable and self-healing."</text>
+    <text x="28" y="214" class="motto q60">"There is no place like ~/"</text>
+    <text x="28" y="214" class="motto q61">"Talk is cheap. Show me the code."</text>
+    <text x="28" y="214" class="motto q62">"Keep it simple, stupid (KISS)."</text>
+    <text x="28" y="214" class="motto q63">"Premature optimization is the root of all evil."</text>
+    <text x="28" y="214" class="motto q64">"Unix philosophy: do one thing and do it well."</text>
+    <text x="28" y="214" class="motto q65">"Everything in Unix is a file; everything in cloud is an API."</text>
+    <text x="28" y="214" class="motto q66">"Pipelines connect small tools into mighty systems."</text>
+    <text x="28" y="214" class="motto q67">"A clean script saves a thousand clicks."</text>
+    <text x="28" y="214" class="motto q68">"Idempotency: run once or many times with identical results."</text>
+    <text x="28" y="214" class="motto q69">"Zero downtime is an engineering choice, not luck."</text>
+    <text x="28" y="214" class="motto q70">"Latency matters; every millisecond counts."</text>
+    <text x="28" y="214" class="motto q71">"Cache invalidation and naming things: the two hard problems."</text>
+    <text x="28" y="214" class="motto q72">"Good code is its own best documentation."</text>
+    <text x="28" y="214" class="motto q73">"Write code for humans first, machines second."</text>
+    <text x="28" y="214" class="motto q74">"Complex systems require simple building blocks."</text>
+    <text x="28" y="214" class="motto q75">"Security is not a checkbox; it is a mindset."</text>
+    <text x="28" y="214" class="motto q76">"Least privilege is the bedrock of cloud defense."</text>
+    <text x="28" y="214" class="motto q77">"Zero trust: never trust, always verify."</text>
+    <text x="28" y="214" class="motto q78">"Rotate keys, automate certs, sleep peacefully."</text>
+    <text x="28" y="214" class="motto q79">"Secrets belong in vaults, never in code repositories."</text>
+    <text x="28" y="214" class="motto q80">"Patch early, patch often, patch automatically."</text>
+    <text x="28" y="214" class="motto q81">"Compliance is the floor; security is the ceiling."</text>
+    <text x="28" y="214" class="motto q82">"Shift security left, protect production right."</text>
+    <text x="28" y="214" class="motto q83">"Audit trails are the historian of the cloud."</text>
+    <text x="28" y="214" class="motto q84">"Defence in depth stops a single point of breach."</text>
+    <text x="28" y="214" class="motto q85">"First, solve the problem. Then, write the code."</text>
+    <text x="28" y="214" class="motto q86">"Make it work, make it right, make it fast."</text>
+    <text x="28" y="214" class="motto q87">"The best code is the code you never had to write."</text>
+    <text x="28" y="214" class="motto q88">"Done is better than perfect, but quality is non-negotiable."</text>
+    <text x="28" y="214" class="motto q89">"Leave the codebase better than you found it."</text>
+    <text x="28" y="214" class="motto q90">"Curiosity is the best debugger."</text>
+    <text x="28" y="214" class="motto q91">"Document the why, not just the how."</text>
+    <text x="28" y="214" class="motto q92">"Standardization speeds up innovation."</text>
+    <text x="28" y="214" class="motto q93">"Measure what matters; ignore the noise."</text>
+    <text x="28" y="214" class="motto q94">"Great architectures evolve; they aren't born perfect."</text>
+    <text x="28" y="214" class="motto q95">"Code is liability; functionality is asset."</text>
+    <text x="28" y="214" class="motto q96">"Automation frees humans to solve human problems."</text>
+    <text x="28" y="214" class="motto q97">"Consistency over cleverness."</text>
+    <text x="28" y="214" class="motto q98">"Master the fundamentals; tools will change."</text>
+    <text x="28" y="214" class="motto q99">"Build with empathy for the engineer on call."</text>
   </g>
 
   <!-- Active Prompt & Blinking Cursor -->
